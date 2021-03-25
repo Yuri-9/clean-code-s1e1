@@ -65,7 +65,7 @@ button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -75,7 +75,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
@@ -113,11 +113,6 @@ h3 {
 }
 
 /* New Task */
-label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-}
-
 .add-task__input {
   margin-top: 20px;
   width: 318px;
